@@ -124,7 +124,7 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
-        Debug.Log("Jump");
+        //Debug.Log("Jump");
         StopCoroutine(Slide());
         animator.SetBool("isSliding", false);
         animator.SetTrigger("jump");

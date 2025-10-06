@@ -1,0 +1,5 @@
+# ninja log v5
+118	256	7814737204417678	C:/Prathmesh/_Github Project/Runner-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/301r6yy5/obj/arm64-v8a/libswappywrapper.so	d23dd63689232086
+2	117	7814737203094554	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	dfea4e87684d7d98
+1	132	7814740063405371	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	dfea4e87684d7d98
+133	256	7814740064523393	C:/Prathmesh/_Github Project/Runner-Game/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/301r6yy5/obj/arm64-v8a/libswappywrapper.so	d23dd63689232086
