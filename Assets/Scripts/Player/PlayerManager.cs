@@ -25,7 +25,7 @@ public class PlayerManager : MonoBehaviour
     {
         int index = PlayerPrefs.GetInt("SelectedCharacter");
         GameObject go = Instantiate(characterPrefabs[index], transform.position, Quaternion.identity);
-        adManager = FindObjectOfType<AdManager>();
+        //adManager = FindObjectOfType<AdManager>();
     }
 
     void Start()
@@ -34,9 +34,9 @@ public class PlayerManager : MonoBehaviour
         Time.timeScale = 1;
         gameOver = isGameStarted = isGamePaused= false;
 
-        adManager.RequestBanner();
-        adManager.RequestInterstitial();
-        adManager.RequestRewardBasedVideo();
+        //adManager.RequestBanner();
+        //adManager.RequestInterstitial();
+        //adManager.RequestRewardBasedVideo();
     }
 
     void Update()
@@ -52,16 +52,16 @@ public class PlayerManager : MonoBehaviour
             if (score > PlayerPrefs.GetInt("HighScore", 0))
             {
                 newRecordPanel.SetActive(true);
-                newRecordText.text = "New \nRecord\n" + score;
+                newRecordText.text = "New Record\n" + score;
                 PlayerPrefs.SetInt("HighScore", score);
             }
             else
             {
-                int i = Random.Range(0, 6);
-                if (i == 0)
-                    adManager.ShowInterstitial();
-                else if (i == 3)
-                    adManager.ShowRewardBasedVideo();
+                //int i = Random.Range(0, 6);
+                //if (i == 0)
+                //    adManager.ShowInterstitial();
+                //else if (i == 3)
+                //    adManager.ShowRewardBasedVideo();
             }
             
             gameOverPanel.SetActive(true);

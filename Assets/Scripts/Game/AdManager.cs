@@ -1,4 +1,4 @@
-﻿using GoogleMobileAds.Api;
+﻿
 using UnityEngine;
 using System;
 
@@ -120,15 +120,15 @@ public class AdManager : MonoBehaviour
 
     #region RewardBasedVideo callback handlers
 
-    public void HandleRewardBasedVideoClosed(object sender, EventArgs args)
-    {
-        //this.RequestRewardBasedVideo();
-    }
+    //public void HandleRewardBasedVideoClosed(object sender, EventArgs args)
+    //{
+    //    //this.RequestRewardBasedVideo();
+    //}
 
-    public void HandleRewardBasedVideoRewarded(object sender, Reward args)
-    {
-        //rewarded = true;
-    }
+    //public void HandleRewardBasedVideoRewarded(object sender, Reward args)
+    //{
+    //    //rewarded = true;
+    //}
 
     #endregion
 }
